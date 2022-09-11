@@ -29,8 +29,10 @@ function submitHandler() {
     var ip = Number(initialPrice.value);
     var qty = Number(quantity.value);
     var curr = Number(currentPrice.value);
-
+    if(ip && qty && curr)
     calculateProfitAndLoss(ip, qty, curr);
+    else 
+    output.innerText=("Required parametres missing!");
 }
 
 
