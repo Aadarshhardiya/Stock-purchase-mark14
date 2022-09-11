@@ -1,3 +1,49 @@
+* {
+    margin: 0%;
+}
+
 body {
     text-align: center;
+    background-color:#fca5a5
 }
+
+h1 {
+    font-size: 7vh;
+    font-variant:small-caps;
+    color:#0f172a;
+    padding: 1rem;
+}
+
+label {
+    display:block; 
+    padding: 1rem;
+    font-size: x-large;
+
+}
+
+input {
+    display:block;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 15rem;
+    border: solid goldenrod;
+    margin: auto;
+}
+
+#check-btn {
+    margin: 2rem;
+    width: 8rem;
+    box-sizing: border-box;
+    border-radius: .5rem;  
+    font-weight:bolder;
+    border: double #0f172a;
+    height: 5vh;
+    background-color:whitesmoke ;
+   
+}
+
+#output {
+    font-size: larger;
+    color:blue
+}
+
