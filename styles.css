@@ -1,10 +1,12 @@
 * {
     margin: 0%;
+
 }
+
 
 body {
     text-align: center;
-    background-color:#fca5a5
+    background-image:linear-gradient(to bottom right ,dimgray,#FFEDD5, #94A3B8);
 }
 
 h1 {
@@ -44,6 +46,7 @@ input {
 
 #output {
     font-size: larger;
-    color:blue
+    color:blue;
+    padding-bottom: 7rem;
 }
 
