@@ -6,8 +6,10 @@ const output = document.querySelector("#output")
 
 function calculateProfitAndLoss(initial, quantity, current){
   
-  
-if (initial > current) {
+ if (initial<=0 || quantity<=0 || current<=0) {
+    output.innerText ="Please enter value greater than zero to calculate"
+}
+    else if (initial > current) {
         var loss = (initial-current) * quantity;
         var lossPercentage = (loss/initial) * 100
 
